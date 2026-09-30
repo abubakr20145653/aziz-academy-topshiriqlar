@@ -1,0 +1,6 @@
+# Agar a yoki b manfiy bo‘lsa "Invalid" chiqaring.
+a, b = map(int, input().split())
+if a < 0 or b < 0:
+    print("Invalid")
+else:
+    print(a + b)
